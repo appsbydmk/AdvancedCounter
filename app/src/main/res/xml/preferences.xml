@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="108"
+        android:inputType="number"
+        android:key="@string/key_counter_limit"
+        android:title="@string/title_pref2_counter_limit" />
+    <SwitchPreference
+        android:key="@string/key_vibrate_on_each"
+        android:title="@string/title_pref3_vibrate_on_each_count" />
+    <SwitchPreference
+        android:key="@string/key_notify_with_sound"
+        android:title="@string/title_pref4_notify_with_sound" />
+    <SwitchPreference
+        android:key="@string/key_long_vibrate_limit_reached"
+        android:title="@string/title_pref5_long_vibrate_limit_reached" />
+    <SwitchPreference
+        android:key="@string/key_change_textcolor_newrun"
+        android:title="@string/title_pref6_change_textcolor_newrun" />
+    <SwitchPreference
+        android:key="@string/key_confirm_on_exit"
+        android:title="@string/title_pref7_confirm_on_exit" />
+    <Preference
+        android:key="@string/key_about"
+        android:title="@string/title_pref10_about" />
+
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Advanced Counter</string>
+    <string name="main_settings_title">Settings</string>
+    <string name="text_zero">0</string>
+    <string name="title_pref2_counter_limit">Set limit for the counter</string>
+    <string name="key_counter_limit">counter_limit</string>
+    <string name="title_pref3_vibrate_on_each_count">Vibrate on each count</string>
+    <string name="key_vibrate_on_each">vibrate_on_each_count</string>
+    <string name="title_pref4_notify_with_sound">Notify with sound on limit reached</string>
+    <string name="key_notify_with_sound">notify_with_sound</string>
+    <string name="title_pref5_long_vibrate_limit_reached">Long vibrate on limit reached</string>
+    <string name="key_long_vibrate_limit_reached">long_vibrate_limit</string>
+    <string name="title_pref6_change_textcolor_newrun">Change TextColor on each run of the app</string>
+    <string name="key_change_textcolor_newrun">change_textcolor_newrun</string>
+    <string name="title_pref7_confirm_on_exit">Confirm on exit</string>
+    <string name="key_confirm_on_exit">confirm_on_exit</string>
+    <string name="title_pref10_about">About</string>
+    <string name="key_about">about_app</string>
+    <string name="settings_title">Settings</string>
+</resources>
