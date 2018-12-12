@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
             tvCounter.setTextColor(color);
         }
+        //Initial Toast
         Toast.makeText(this, "Long click anywhere on the screen to reveal menu button!", Toast.LENGTH_SHORT).show();
     }
 
