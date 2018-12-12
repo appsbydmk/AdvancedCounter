@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnCounter.setOnClickListener(this);
         fbSettings = (FloatingActionButton) this.findViewById(R.id.fb_settings);
         fbSettings.setOnClickListener(this);
+        //Changes text color on new run
         if (changeTextColorNewRun) {
             Random rnd = new Random();
             int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
